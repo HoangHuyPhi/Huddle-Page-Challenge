@@ -1,9 +1,13 @@
+
 body {
 	background-color: white;
 	font-size: 18px;
 }
 p {
 	color: hsl(322, 100%, 66%);
+}
+h1 {
+	margin-top: 60px;
 }
 h2 {
 	font-family: 'Poppins', sans-serif;
@@ -13,7 +17,10 @@ h3 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 }
-
+table {
+	border: 1px solid red;
+	width: 30%;
+}
 .container > img {
 	margin: 20px 0px 0px 40px;
 }
@@ -21,10 +28,9 @@ h3 {
 	border-radius: 5px;
 	margin: 30px 40px 40px 0px;
 	float: right;
-	border: none;
-	width: 130px;
-	height: 35px;
-	font-size: 10px;
+	width: 145px;
+	height: 45px;
+	font-size: 12px;
 	font-family: 'Poppins', sans-serif;
 	color: hsl(208, 11%, 55%);
 	box-shadow: 0px 4px 3px rgba(0,0,0,0.1),
@@ -71,6 +77,43 @@ h3 {
 }
 .container2 .text2 > h3 {
 	margin: 0;
+}
+.container3 {
+	border: 1px solid white;
+	width: 50%;
+	height: 300px;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 50px hsl(322, 100%, 90%);
+}
+.container3 > button {
+	border-radius: 5px;
+	background-color: hsl(322, 100%, 66%);
+	width: 160px;
+	height: 35px;
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	margin-top: 30px;
+}
+.container4 {
+  border: 1px solid red;
+  right: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 150px;
+  height: 300px;
+}
+.container4 #logo {
+	margin: 40px 0px 0px 40px;
+	width: 150px;
+}
+.container4 #container4a {
+	border: 1px solid red;
+	margin: 5px 0px 0px 40px;
 }
 
 
