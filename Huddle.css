@@ -1,7 +1,10 @@
 
-body {
+html, body {
 	background-color: white;
 	font-size: 18px;
+	height: 100%;
+	position: relative;
+	margin: 0;
 }
 p {
 	color: hsl(322, 100%, 66%);
@@ -107,11 +110,11 @@ a:hover {
 }
 footer {
   margin-top: 150px;
-  right: 0;
   left: 0;
-  position: absolute;
+  bottom: 0;
+  width: 100%;
+  position: relative;
   background-color: black;
-  height: 380px;
   justify-content: center;
   color: #f7f9fd;
 }
@@ -147,6 +150,8 @@ h4 {
 .Career {
 	margin-top: 0px;
 }
+
+
 footer > img {
 	margin-top: 30px;
 	margin-left: 50px;
